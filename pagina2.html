@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="pagina2.css">
+    <link rel="stylesheet" href="pagina1.html">
+    <link rel="stylesheet" href="pagina3.html">
+    <link rel="stylesheet" href="pagina4.html">
+    <link rel="stylesheet" href="login.html">
+</head>
+<body>
+    <!-- header -->
+    <header id="main-header">
+        <nav>
+            <div class="menu-container">
+                <button id="menu-toggle" class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="pagina1.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="pagina2.html" class="nav-link">Recetas</a>
+                    </li>
+                    <li class="menu-item dropdown">
+                        <a href="pagina3.html" class="nav-link">Categorías</a>
+                        <ul class="submenu">
+                            <li><a href="receta1.html" class="submenu-link">Pastel</a></li>
+                            <li><a href="#" class="submenu-link">Postres</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="pagina4.html" class="nav-link">Compra</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="login.html" class="nav-link">Registro</a>
+                    </li>
+                </ul>
+                <div class="search-container">
+                    <input type="text" placeholder="Buscar recetas..." class="search-input">
+                    <button class="search-btn">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <img src="img/logo1.jpg" alt="Logo" class="logo">
+            </div>
+        </nav>
+    </header>
+
+    <!-- Slider -->
+    <div class="slider">
+        <div class="title">
+            FOOD!
+        </div>
+        <div class="images">
+            <div class="item" style="--i: 1">
+                <img src="img/food36.jpg">
+            </div>
+            <div class="item" style="--i: 2">
+                <img src="img/food40.jpg">
+            </div>
+            <div class="item" style="--i: 3">
+                <img src="img/food38.jpg">
+            </div>
+            <div class="item" style="--i: 4">
+                <img src="img/food41.jpg">
+            </div>
+            <div class="item" style="--i: 5">
+                <img src="img/food37.jpg">
+            </div>
+            <div class="item" style="--i: 6">
+                <img src="img/food39.jpg">
+            </div>
+        </div>
+        <div class="content">
+            <div class="item active">
+                <h1>PIZZA</h1>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur. 
+                    Ipsum, quibusdam recusandae impedit molestiae libero nobis nemo possimus perspiciatis. 
+                    Debitis aliquam cum nemo aspernatur expedita ea? Et officia asperiores est aliquam? 
+                    Doloribus, tenetur non? Minima vero aperiam corporis magni. Officiis, blanditiis. Iusto sint distinctio eaque non culpa.
+                </div>
+            </div>
+            <div class="item">
+                <h1>SANDWICH</h1>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur. 
+                    Ipsum, quibusdam recusandae impedit molestiae libero nobis nemo possimus perspiciatis. 
+                    Debitis aliquam cum nemo aspernatur expedita ea? Et officia asperiores est aliquam? 
+                    Doloribus, tenetur non? Minima vero aperiam corporis magni. Officiis, blanditiis. Iusto sint distinctio eaque non culpa.
+                </div>
+            </div>
+            <div class="item">
+                <h1>ALITAS DE POLLO</h1>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur. 
+                    Ipsum, quibusdam recusandae impedit molestiae libero nobis nemo possimus perspiciatis. 
+                    Debitis aliquam cum nemo aspernatur expedita ea? Et officia asperiores est aliquam? 
+                    Doloribus, tenetur non? Minima vero aperiam corporis magni. Officiis, blanditiis. Iusto sint distinctio eaque non culpa.
+                </div>
+            </div>
+            <div class="item">
+                <h1>HAMBURGUESA</h1>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur. 
+                    Ipsum, quibusdam recusandae impedit molestiae libero nobis nemo possimus perspiciatis. 
+                    Debitis aliquam cum nemo aspernatur expedita ea? Et officia asperiores est aliquam? 
+                    Doloribus, tenetur non? Minima vero aperiam corporis magni. Officiis, blanditiis. Iusto sint distinctio eaque non culpa.
+                </div>
+            </div>
+            <div class="item">
+                <h1>SALUDABLE</h1>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur. 
+                    Ipsum, quibusdam recusandae impedit molestiae libero nobis nemo possimus perspiciatis. 
+                    Debitis aliquam cum nemo aspernatur expedita ea? Et officia asperiores est aliquam? 
+                    Doloribus, tenetur non? Minima vero aperiam corporis magni. Officiis, blanditiis. Iusto sint distinctio eaque non culpa.
+                </div>
+            </div>
+            <div class="item">
+                <h1>HAMBURGUESA</h1>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur. 
+                    Ipsum, quibusdam recusandae impedit molestiae libero nobis nemo possimus perspiciatis. 
+                    Debitis aliquam cum nemo aspernatur expedita ea? Et officia asperiores est aliquam? 
+                    Doloribus, tenetur non? Minima vero aperiam corporis magni. Officiis, blanditiis. Iusto sint distinctio eaque non culpa.
+                </div>
+            </div>
+        </div>
+        <button id="prev"></button>
+        <button id="next"></button>
+    </div>
+
+    <!-- seccion1 -->
+    <section class="section1">
+        <div class="section-box">
+            <div id="mu-about-us">
+                <div class="mu-about-us-area">
+                    <div class="mu-title">
+                        <span class="mu-subtitle">DELICIOUS</span>
+                        <h2>Recetas</h2>
+                        <div class="mu-title-bar"></div>
+                    </div>
+                    <div class="mu-about-us-content">
+                        <div class="mu-about-us-left">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus aliquid, itaque illum assumenda repellendus dolorem, dolore numquam totam saepe.</p>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque similique molestias est quod reprehenderit, quibusdam nam qui, quam magnam.</p>
+                        </div>
+                        <div class="mu-about-us-right">
+                            <div class="mu-abtus-slider">
+                                <img src="img/food10.jpg" alt="About us image 1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- separador -->
+    <div id="counter">
+        <div class="counter-overlay">
+            <div class="container">
+                <div class="counter-content">
+                    <ul class="counter-list">
+                        <li class="counter-item">
+                            <div class="counter-box">
+                                <span>Refrescante</span>
+                                <h3><span class="number">55</span><sup>+</sup></h3>
+                                <p>Bebidas saludables.</p>
+                            </div>
+                        </li>
+                        <li class="counter-item">
+                            <div class="counter-box">
+                                <span>Delicioso</span>
+                                <h3><span class="number">130</span><sup>+</sup></h3>
+                                <p>Platillos exquisitos.</p>
+                            </div>
+                        </li>
+                        <li class="counter-item">
+                            <div class="counter-box">
+                                <span>Picantes</span>
+                                <h3><span class="number">35</span><sup>+</sup></h3>
+                                <p>Platos tipicos.</p>
+                            </div>
+                        </li>
+                        <li class="counter-item">
+                            <div class="counter-box">
+                                <span>Satisfechos</span>
+                                <h3><span class="number">3562</span><sup>+</sup></h3>
+                                <p>Clientes.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- menu -->
+    <div id="restaurant-menu">
+        <div class="container">
+            <div class="menu-content">
+                <div class="menu-title">
+                    <span class="subtitle">DELICIOUS</span>
+                    <h2>RECETAS</h2>
+                    <span class="title-bar"></span>
+                </div>
+
+                <div class="menu-tabs">
+                    <ul class="tab-nav">
+                        <li class="active"><a href="#breakfast">Desayunos</a></li>
+                        <li><a href="#meals">Carnes</a></li>
+                        <li><a href="#snacks">Crujientes</a></li>
+                        <li><a href="#desserts">Postres</a></li>
+                        <li><a href="#drinks">Bebidas</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="breakfast">
+                            <div class="menu-section">
+                                <div class="menu-column">
+                                    <ul class="menu-items">
+                                        <li>
+                                            <div class="item-card">
+                                                <div class="item-image">
+                                                    <img src="img/food13.jpg" alt="English Breakfast">
+                                                </div>
+                                                <div class="item-details">
+                                                    <h4><a href="#">Desayunos Exquisito</a></h4>
+                                                    <span class="price">15 Bs</span>
+                                                    <p>Disfruta de deliciosos desayunos comprando recetas desde 15 BS.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item-card">
+                                                <div class="item-image">
+                                                    <img src="img/food8.jpg" alt="Chinese Breakfast">
+                                                </div>
+                                                <div class="item-details">
+                                                    <h4><a href="#">Postres Deliciosos</a></h4>
+                                                    <span class="price">11 Bs</span>
+                                                    <p>Disfruta de deliciosos postres comprando recetas desde 11 BS.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item-card">
+                                                <div class="item-image">
+                                                    <img src="img/food18.jpg" alt="Indian Breakfast">
+                                                </div>
+                                                <div class="item-details">
+                                                    <h4><a href="#">Cenas</a></h4>
+                                                    <span class="price">18</span>
+                                                    <p>Disfruta de deliciosas cenas comprando recetas desde 18 BS.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item-card">
+                                                <div class="item-image">
+                                                    <img src="img/food9.jpg" alt="English Breakfast">
+                                                </div>
+                                                <div class="item-details">
+                                                    <h4><a href="#">Tipicas</a></h4>
+                                                    <span class="price">15</span>
+                                                    <p>Disfruta de deliciosas comidas tipicas comprando recetas desde 15 BS.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item-card">
+                                                <div class="item-image">
+                                                    <img src="img/food16.jpg" alt="Indian Breakfast">
+                                                </div>
+                                                <div class="item-details">
+                                                    <h4><a href="#">Pasteles</a></h4>
+                                                    <span class="price">20 Bs</span>
+                                                    <p>Disfruta de deliciosos pasteles comprando recetas desde 20 BS.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item-card">
+                                                <div class="item-image">
+                                                    <img src="img/food14.jpg" alt="Indian Breakfast">
+                                                </div>
+                                                <div class="item-details">
+                                                    <h4><a href="#">Bocadillos</a></h4>
+                                                    <span class="price">5 Bs</span>
+                                                    <p>Disfruta de deliciosos bocadillos comprando recetas desde 5 BS.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="menu-column">
+                                    <!-- añadir -->
+                                    <ul class="menu-items">
+                                        <!-- añadir -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- añadir -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- titulo -->
+    <div class="section-title">
+        <h2>Recetas mas populares</h2>
+        <p>Explora las recetas mas populares</p>
+    </div>
+    <!-- recetas populares -->
+    <section class="featured-recipes">
+        <div class="recipe-card">
+            <a href="receta1.html" class="recipe-link">
+                <div class="card-content">
+                    <img src="img/food18.jpg" alt="Croissants Caseros" class="card-img">
+                    <h2 class="card-title">Croissants Caseros</h2>
+                    <p class="card-text">Deliciosos croissants caseros con masa hojaldrada perfecta y deliciosa lista para saborear.<br> 
+                        <br>Tiempo de preparación: 3 horas. <br>Dificultad: Media.</p>
+                    <div class="button-borders">
+                        <button class="primary-button"> Receta
+                        </button>
+                    </div>
+                    <div class="recipe-details">
+                        <span><i class="icon-clock"></i> 3h</span>
+                        <span><i class="icon-people"></i> 8 unidades</span>
+                        <span><i class="icon-star"></i> Media</span>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        <div class="recipe-card">
+            <a href="receta2.html" class="recipe-link">
+                <div class="card-content">
+                    <img src="img/food18.jpg" alt="Croissants Rellenos" class="card-img">
+                    <h2 class="card-title">Croissants Rellenos</h2>
+                    <p class="card-text">Croissants rellenos de chocolate y fresas. Una versión gourmet del clásico francés.<br>
+                        <br> Tiempo de preparación: 4 horas. <br>Dificultad: Alta.</p>
+                    <div class="button-borders">
+                        <button class="primary-button"> Receta
+                        </button>
+                    </div>
+                    <div class="recipe-details">
+                        <span><i class="icon-clock"></i> 4h</span>
+                        <span><i class="icon-people"></i> 6 unidades</span>
+                        <span><i class="icon-star"></i> Alta</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="recipe-card">
+            <a href="receta2.html" class="recipe-link">
+                <div class="card-content">
+                    <img src="img/food19.jpg" alt="Croissants Rellenos" class="card-img">
+                    <h2 class="card-title">Croissants Rellenos</h2>
+                    <p class="card-text">Croissants rellenos de chocolate y fresas. Una versión gourmet del clásico francés.<br>
+                        <br> Tiempo de preparación: 4 horas. <br>Dificultad: Alta.</p>
+                    <div class="button-borders">
+                        <button class="primary-button"> Receta
+                        </button>
+                    </div>
+                    <div class="recipe-details">
+                        <span><i class="icon-clock"></i> 4h</span>
+                        <span><i class="icon-people"></i> 6 unidades</span>
+                        <span><i class="icon-star"></i> Alta</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="recipe-card">
+            <a href="receta1.html" class="recipe-link">
+                <div class="card-content">
+                    <img src="img/food18.jpg" alt="Croissants Caseros" class="card-img">
+                    <h2 class="card-title">Croissants Caseros</h2>
+                    <p class="card-text">Deliciosos croissants caseros con masa hojaldrada perfecta y deliciosa lista para saborear.<br>
+                            <br>Tiempo de preparación: 3 horas. <br>Dificultad: Media.</p>
+                    <div class="button-borders">
+                        <button class="primary-button"> Receta
+                        </button>
+                    </div>
+                    <div class="recipe-details">
+                        <span><i class="icon-clock"></i> 3h</span>
+                        <span><i class="icon-people"></i> 8 unidades</span>
+                        <span><i class="icon-star"></i> Media</span>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        <div class="recipe-card">
+            <a href="receta1.html" class="recipe-link">
+                <div class="card-content">
+                    <img src="img/food18.jpg" alt="Croissants Caseros" class="card-img">
+                    <h2 class="card-title">Croissants Caseros</h2>
+                    <p class="card-text">Deliciosos croissants caseros con masa hojaldrada perfecta y deliciosa lista para saborear.<br> 
+                        <br>Tiempo de preparación: 3 horas. <br>Dificultad: Media.</p>
+                    <div class="button-borders">
+                        <button class="primary-button"> Receta
+                        </button>
+                    </div>
+                    <div class="recipe-details">
+                        <span><i class="icon-clock"></i> 3h</span>
+                        <span><i class="icon-people"></i> 8 unidades</span>
+                        <span><i class="icon-star"></i> Media</span>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        <div class="recipe-card">
+            <a href="receta1.html" class="recipe-link">
+                <div class="card-content">
+                    <img src="img/food18.jpg" alt="Croissants Caseros" class="card-img">
+                    <h2 class="card-title">Croissants Caseros</h2>
+                    <p class="card-text">Deliciosos croissants caseros con masa hojaldrada perfecta y deliciosa lista para saborear.<br> 
+                        <br>Tiempo de preparación: 3 horas. <br>Dificultad: Media.</p>
+                    <div class="button-borders">
+                        <button class="primary-button"> Receta
+                        </button>
+                    </div>
+                    <div class="recipe-details">
+                        <span><i class="icon-clock"></i> 3h</span>
+                        <span><i class="icon-people"></i> 8 unidades</span>
+                        <span><i class="icon-star"></i> Media</span>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+    </section>
+    
+    <!-- contacto -->
+    <div class="contact-imfo-box">
+        <div class="container1">
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fa fa-volume-control-phone"></i>
+                    <div class="overflow-hidden">
+                        <h4>Celular</h4>
+                        <p class="lead">
+                            +591 12345678
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-envelope"></i>
+                    <div class="overflow-hidden">
+                        <h4>Email</h4>
+                        <p class="lead">
+                            delicious@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-map-marker"></i>
+                    <div class="overflow-hidden">
+                        <h4>Localizacion</h4>
+                        <p class="lead">
+                            Recetas virtuales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <!-- 1 -->
+                <div class="col">
+                    <h3>Sobre Nosotros</h3>
+                    <p>Compartir recetas y prepararlas es la mejor manera de vivir una vida saludable y feliz.</p>
+                </div>
+                <!-- 2 -->
+                <div class="col">
+                    <h3>Compras</h3>
+                    <p><span class="text-color">Navidad:</span>Pavo al Horno</p>
+                    <p><span class="text-color">Semana Santa:</span>Aji de Arvejas</p>
+                    <p><span class="text-color">Año Nuevo:</span>Chancho al Horno</p>
+                    <p><span class="text-color">San Juan:</span>Hot Dogs</p>
+                </div>
+                <!-- 3 -->
+                <div class="col">
+                    <h3>Informacion de Contacto</h3>
+                    <p class="lead">Servicio 24 horas para realizar tus comidas.</p>
+                    <p class="lead"><a href="tel:+591 12345678">+591 12345678</a></p>
+                    <p><a href="mail: delicious@gmail.com">delicious@gmail.com</a></p>
+                </div>
+                <!-- 4 -->
+                <div class="col">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Pagina Registrada. &copy; 2024 <a href="#">Delicious Food</a></p>
+        </div>
+    </footer>
+    
+    <script src="pagina2.js"></script>
+</body>
+</html>

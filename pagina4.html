@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="pagina4.css">
+    <link rel="stylesheet" href="pagina1.html">
+    <link rel="stylesheet" href="pagina2.html">
+    <link rel="stylesheet" href="pagina3.html">
+    <link rel="stylesheet" href="login.html">
+</head>
+<body>
+    <!-- header -->
+    <header id="main-header">
+        <nav>
+            <div class="menu-container">
+                <button id="menu-toggle" class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="pagina1.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="pagina2.html" class="nav-link">Recetas</a>
+                    </li>
+                    <li class="menu-item dropdown">
+                        <a href="pagina3.html" class="nav-link">Categorías</a>
+                        <ul class="submenu">
+                            <li><a href="receta1.html" class="submenu-link">Pastel</a></li>
+                            <li><a href="#" class="submenu-link">Postres</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="pagina4.html" class="nav-link">Compra</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="login.html" class="nav-link">Registro</a>
+                    </li>
+                </ul>
+                <div class="search-container">
+                    <input type="text" placeholder="Buscar recetas..." class="search-input">
+                    <button class="search-btn">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <img src="img/logo1.jpg" alt="Logo" class="logo">
+            </div>
+
+            <!-- icon -->
+        <div class="container-icon">
+            <div class="container-cart-icon">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon-cart"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                    />
+                </svg>
+                <div class="count-products">
+                    <span id="contador-productos">0</span>
+                </div>
+            </div>
+
+            <div class="container-cart-products hidden-cart">
+                <div class="row-product hidden">
+                    <div class="cart-product">
+                        <div class="info-cart-product">
+                            <span class="cantidad-producto-carrito"></span>
+                            <p class="titulo-producto-carrito"></p>
+                            <span class="precio-producto-carrito"></span>
+                        </div>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="icon-close"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6 18L18 6M6 6l12 12"
+                            />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="cart-total hidden">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$200</span>
+                </div>
+                <p class="cart-empty">El carrito está vacío</p>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+    <!-- titulo -->
+    <div class="section-title">
+        <h2>Compra tus recetas favoritas</h2>
+        <p>Explora cada una de las deliciosas comidas que puedes hacer en la comodidad de tu hogar.</p>
+    </div>
+
+    <!-- productos -->
+     <section>
+        <div class="container-items">
+            <div class="item">
+                <figure>
+                    <img
+                        src="img/food49.jpg"
+                        alt="producto"
+                    />
+                </figure>
+                <div class="info-product">
+                    <h2>Receta</h2>
+                    <p class="price">$110</p>
+                    <button class="btn-add-cart" style="background-color: rgb(195, 151, 104);">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="img/food50.jpg"
+                        alt="producto"
+                    />
+                </figure>
+                <div class="info-product">
+                    <h2>Receta</h2>
+                    <p class="price">$100</p>
+                    <button class="btn-add-cart" style="background-color: rgb(131, 173, 181);">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="img/food51.jpg"
+                        alt="producto"
+                    />
+                </figure>
+                <div class="info-product">
+                    <h2>Receta</h2>
+                    <p class="price">$90</p>
+                    <button class="btn-add-cart" style="background-color: rgb(170, 135, 128);">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="img/food52.jpg"
+                        alt="producto"
+                    />
+                </figure>
+                <div class="info-product">
+                    <h2>Receta</h2>
+                    <p class="price">$120</p>
+                    <button class="btn-add-cart" style="background-color: rgb(175, 182, 131);">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="img/food14.jpg"
+                        alt="producto"
+                    />
+                </figure>
+                <div class="info-product">
+                    <h2>Receta</h2>
+                    <p class="price">$130</p>
+                    <button class="btn-add-cart" style="background-color: rgb(171, 132, 181);">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="img/food8.jpg"
+                        alt="producto"
+                    />
+                </figure>
+                <div class="info-product">
+                    <h2>Receta</h2>
+                    <p class="price">$150</p>
+                    <button class="btn-add-cart" style="background-color: rgb(188, 144, 152);">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="img/food55.jpg"
+                        alt="producto"
+                    />
+                </figure>
+                <div class="info-product">
+                    <h2>Receta</h2>
+                    <p class="price">$150</p>
+                    <button class="btn-add-cart" style="background-color: rgb(193, 83, 83);">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="img/food56.jpg"
+                        alt="producto"
+                    />
+                </figure>
+                <div class="info-product">
+                    <h2>Receta</h2>
+                    <p class="price">$150</p>
+                    <button class="btn-add-cart" style="background-color: rgb(86, 114, 99);">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="img/food57.jpg"
+                        alt="producto"
+                    />
+                </figure>
+                <div class="info-product">
+                    <h2>Receta</h2>
+                    <p class="price">$150</p>
+                    <button class="btn-add-cart" style="background-color: rgb(75, 65, 67);">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+     </section>
+    
+
+
+    <!-- contacto -->
+    <div class="contact-imfo-box">
+        <div class="container1">
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fa fa-volume-control-phone"></i>
+                    <div class="overflow-hidden">
+                        <h4>Celular</h4>
+                        <p class="lead">
+                            +591 12345678
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-envelope"></i>
+                    <div class="overflow-hidden">
+                        <h4>Email</h4>
+                        <p class="lead">
+                            delicious@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-map-marker"></i>
+                    <div class="overflow-hidden">
+                        <h4>Localizacion</h4>
+                        <p class="lead">
+                            Recetas virtuales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <!-- 1 -->
+                <div class="col">
+                    <h3>Sobre Nosotros</h3>
+                    <p>Compartir recetas y prepararlas es la mejor manera de vivir una vida saludable y feliz.</p>
+                </div>
+                <!-- 2 -->
+                <div class="col">
+                    <h3>Compras</h3>
+                    <p><span class="text-color">Navidad:</span>Pavo al Horno</p>
+                    <p><span class="text-color">Semana Santa:</span>Aji de Arvejas</p>
+                    <p><span class="text-color">Año Nuevo:</span>Chancho al Horno</p>
+                    <p><span class="text-color">San Juan:</span>Hot Dogs</p>
+                </div>
+                <!-- 3 -->
+                <div class="col">
+                    <h3>Informacion de Contacto</h3>
+                    <p class="lead">Servicio 24 horas para realizar tus comidas.</p>
+                    <p class="lead"><a href="tel:+591 12345678">+591 12345678</a></p>
+                    <p><a href="mail: delicious@gmail.com">delicious@gmail.com</a></p>
+                </div>
+                <!-- 4 -->
+                <div class="col">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Pagina Registrada. &copy; 2024 <a href="#">Delicious Food</a></p>
+        </div>
+    </footer>
+    
+
+    <script src="pagina4.js"></script>
+    
+</body>
+</html>
